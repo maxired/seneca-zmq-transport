@@ -9,10 +9,10 @@ var test = require('seneca-transport-test')
 describe('zmq-transport', function() {
 
     it('happy-zmq', function( fin ) {
-        test.foo_test( 'zmq-transport', require, fin, 'zmq', 10201 )
+        test.foo_test( '', require, fin, 'zmq', 10201 )
     })
     it('happy-pin', function( fin ) {
-        test.foo_pintest( 'zmq-transport', require, fin, 'zmq', 10201 )
+        test.foo_pintest( '', require, fin, 'zmq', 10201 )
     })
 
 })

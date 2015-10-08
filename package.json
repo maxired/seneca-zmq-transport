@@ -2,7 +2,7 @@
   "name": "seneca-zmq-transport",
   "version": "0.1.0",
   "description": "Seneca ZeroMQ transport",
-  "main": "zmq-transport.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
   },
@@ -18,13 +18,14 @@
   "author": "Richard Rodger (http://richardrodger.com)",
   "license": "MIT",
   "dependencies": {
-    "underscore": "1.5.x",
     "async": "0.2.x",
-    "nid": "0.3.x",
     "connect": "2.12.x",
+    "nid": "0.3.x",
     "patrun": "0.1.x",
-    "zmq": "~2.6.0",
-    "request": "~2.33.0"
+    "request": "~2.33.0",
+    "seneca": "^0.7.1",
+    "underscore": "1.5.x",
+    "zmq": "^2.13.0"
   },
   "peerDependencies": {
     "seneca": "*"

@@ -1,5 +1,10 @@
+sudo: false
 language: node_js
+addons:
+  apt:
+    packages:
+     - libzmq-dev
 node_js:
-  - "0.11"
+  - "4"
+  - "0.12"
   - "0.10"
-  - "0.8"
